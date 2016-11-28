@@ -5,17 +5,36 @@ puts ""
 gets
 
 puts ":: Turing Machines"
+puts "   3 (simple?) rules"
+puts "     1. Read/Write on potentialy infinate memory"
+puts "     2. Move ahead one memory block"
+puts "     3. Conditional jump (jz,jnz)"
+
+puts ""
+gets
+
+puts ":: Lambda Calculus"
+puts "   3 (simple?) rules"
+puts "     1. I - Identity"
+puts "     2. S - Selection"
+puts "     3. K - Komplex kinda recursion"
 
 puts ""
 gets
 
 puts ":: Turing Machines & Lambda Calculus λ"
-puts "   S, K and I"
+puts "   Wait a minute, I see a pattern... but no obvious corelation"
+puts "     - I  <----- Read/Write on potentialy infinate memory -\\"
+puts "     - S  <----- Conditional jump (jz,jnz) ----------------\\|"
+puts "     - K  <-- --> Move ahead one memory block <<<-----------/"
+puts "     - ^--------------------------------------------------/"
+puts "   ... other than, it all hinges on K"
 
 puts ""
 gets
 
 puts ":: Church Numerals & the Peano Axioms"
+puts "   allow us to translate Lanbda calculus or Church Numerals into set theory/machine code"
 puts "   -The first axiom asserts the existence of at least one member of the set of natural numbers"
 puts "   -Next four are general statements about equality (reflexive, symetric, transitive, closed)"
 puts "   -Next three axioms are expressing the fundamental properties of the successor operation (still numbers, injection eq-on-succ, no-0-s)"
